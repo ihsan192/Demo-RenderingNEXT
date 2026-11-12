@@ -3,7 +3,7 @@
 // ==============================================================================
 
 // TODO 1: Atur waktu revalidate menjadi 10 detik.
-// Tulis: export const revalidate = 10; tepat di bawah ini.
+export const revalidate = 10;
 
 
 export default function ProductsPage() {
@@ -25,7 +25,7 @@ export default function ProductsPage() {
       <p>
         Waktu render cache:{" "}
         <b style={{ color: "#fbbf24", fontSize: "18px" }}>
-          {/* Tuliskan {waktuCache} di sini */}
+          {waktuCache}
           ... WIB
         </b>
       </p>
